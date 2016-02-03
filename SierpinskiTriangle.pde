@@ -1,6 +1,5 @@
 public void setup()
 {
-	// size(500, 500, P3D);
 	// translate(250, 250, 0);
 	size(500, 500);
 	background(0);	
