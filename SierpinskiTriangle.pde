@@ -21,11 +21,7 @@ public void draw()
 {
 	sierpinski(0, 500, 500);
 }
-// public void mouseDragged() //optional
-// {
 
-// }
-// public void sierpinski(int x, int y, int z, int len) 
 public void sierpinski(int x, int y, int len)
 {
 	if (len > n)
