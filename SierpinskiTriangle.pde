@@ -6,10 +6,12 @@ public void setup()
 	// noFill();
 	// rotateY(0.5);
 	// box(40);
+
 }
 private int n = 100;
 public void mousePressed()
 {
+
 	if (mouseButton == LEFT && n > 5)
 		n /= 2;
 	else if (mouseButton == RIGHT && n < 500)
@@ -21,7 +23,6 @@ public void draw()
 {
 	sierpinski(0, 500, 500);
 }
-
 public void sierpinski(int x, int y, int len)
 {
 	if (len > n)
